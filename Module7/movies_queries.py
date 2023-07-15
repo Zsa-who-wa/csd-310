@@ -1,4 +1,14 @@
+import mysql
+
+print(dir(mysql))
+['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', 
+'__package__', '__path__', '__spec__']
+
 import mysql.connector
+
+print(dir(mysql))
+['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', 
+'__package__', '__path__', '__spec__', 'connector']
 
 # MySQL database configuration
 config = {
